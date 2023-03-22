@@ -1,0 +1,497 @@
+{
+"Chapter1":[
+ {
+  "scene": "c1-1",
+  "content": "Once upon a time, there lived three little pigs.",
+  "background": "bg_mama_home",
+  "character": "curly@chunky@pinky@mama",
+  "character_with_animation": "curly@chunky@pinky@mama",
+  "character_emotion": "normal@normal@normal@normal",
+  "character_position": "238@534@479@470@798@512@1207@343",
+  "character_size": "250@360.2754821777344@250@356.4453125@250@357.04473876953125@400@566.3392944335938",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_1"
+ },
+ {
+  "scene": "c1-2",
+  "content": "Their names were Curly, Chunky, and Pinky.",
+  "background": "bg_star",
+  "character": "curly@chunky@pinky",
+  "character_with_animation": "curly@chunky@pinky",
+  "character_emotion": "normal@normal@normal",
+  "character_position": "188@171@681@315@1151@136",
+  "character_size": "555.1236572265625@800@560.1539306640625@800@555.1234130859375@800",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_2"
+ },
+ {
+  "scene": "c1-3",
+  "content": "One day they decided to see the world.",
+  "background": "bg_mama_home",
+  "character": "curly@chunky@pinky@mama",
+  "character_with_animation": "curly@chunky@pinky",
+  "character_emotion": "normal@normal@normal",
+  "character_position": "238@534@479@470@798@512@1207@343",
+  "character_size": "250@360.2754821777344@250@356.4453125@250@357.04473876953125@400@566.3392944335938",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_3"
+ },
+ {
+  "scene": "c1-4",
+  "content": "Bye-Bye, boys. Take care.",
+  "background": "bg_mama_home_closeup",
+  "character": "mama",
+  "character_with_animation": "mama",
+  "character_emotion": "worried",
+  "character_position": "561@152",
+  "character_size": "800@1132.677734375",
+  "character_with_audio": "Mama",
+  "audio": "c1_4"
+ },
+ {
+  "scene": "c1-5",
+  "content": "Curly met a goat selling straw.",
+  "background": "bg_forest_with_straw",
+  "character": "curly@goat",
+  "character_with_animation": "curly@goat",
+  "character_emotion": "normal@normal",
+  "character_position": "409@384@970@178",
+  "character_size": "400@571.25537109375@600@878.1240234375",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_5"
+ },
+ {
+  "scene": "c1-6",
+  "content": "I'll build a house of straw.",
+  "background": "bg_home_straw_build",
+  "character": "curly",
+  "character_with_animation": "curly",
+  "character_emotion": "normal",
+  "character_position": "560@164",
+  "character_size": "800.0009765625@1142.5513916015625",
+  "character_with_audio": "Curly",
+  "audio": "c1_6"
+ },
+ {
+  "scene": "c1-7",
+  "content": "But there was one problem...",
+  "background": "bg_home_straw_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_position": "554@181",
+  "character_size": "1100@1100",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_7"
+ },
+ {
+  "scene": "c1-8",
+  "content": "Who’s there?",
+  "background": "bg_home_straw_indoor",
+  "character": "curly",
+  "character_with_animation": "curly",
+  "character_emotion": "worried",
+  "character_position": "560@164",
+  "character_size": "799.9984741210938@1174.1544189453125",
+  "character_with_audio": "Curly",
+  "audio": "c1_8"
+ },
+ {
+  "scene": "c1-9",
+  "content": "A friend, Willis the Wolf. Now let me in.",
+  "background": "bg_home_straw_outdoor_closeup",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_position": "518@181",
+  "character_size": "1089.5072021484375@1100",
+  "character_with_audio": "Willis",
+  "audio": "c1_9"
+ },
+ {
+  "scene": "c1-10",
+  "content": "Mama pig taught her sons never to open the door to strangers.",
+  "background": "bg_memory",
+  "character": "curly@chunky@pinky",
+  "character_with_animation": "curly@chunky@pinky",
+  "character_emotion": "worried@worried@worried",
+  "character_position": "201@438@589.17578125@522.365478515625@1415@477",
+  "character_size": "370.4295654296875@543.6768798828125@380.833251953125@541.7313232421875@383.41314697265625@549.4117431640625",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_10"
+ },
+ {
+  "scene": "c1-11",
+  "content": "No! You can't come in, you big bully!",
+  "background": "bg_home_straw_indoor",
+  "character": "curly",
+  "character_with_animation": "curly",
+  "character_emotion": "worried",
+  "character_position": "518@181",
+  "character_size": "799.9984741210938@1174.1544189453125",
+  "character_with_audio": "Curly",
+  "audio": "c1_11"
+ },
+ {
+  "scene": "c1-12",
+  "content": "I'm going to huff! I'm going to puff!",
+  "background": "bg_home_straw_outdoor_closeup",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_position": "518@181",
+  "character_size": "1089.507568359375@1100",
+  "character_with_audio": "Willis",
+  "audio": "c1_12"
+ },
+ {
+  "scene": "c1-13",
+  "content": "And I'm going to blow blow blow your house down!",
+  "background": "bg_home_straw_blow",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_position": "518@181",
+  "character_size": "1089.50830078125@1100.000244140625",
+  "character_with_audio": "Willis",
+  "audio": "c1_13"
+ },
+ {
+  "scene": "c1-14",
+  "content": "It wasn't that hard. Straw houses fall easily.",
+  "background": "bg_home_straw_fall",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_position": "403@109",
+  "character_size": "1443.999755859375@1068.9681396484375",
+  "character_with_audio": "Narrotor",
+  "audio": "c1_14"
+ },
+ {
+  "scene": "c1-15",
+  "content": "Now, little pig. I'm going to eat you up!",
+  "background": "bg_forest_02",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "hungry",
+  "character_position": "325@95",
+  "character_size": "1270@1270",
+  "character_with_audio": "Willis",
+  "audio": "c1_15"
+ },
+ {
+  "scene": "c1-16",
+  "content": "Help!",
+  "background": "bg_home_straw_fall",
+  "character": "curly@willis",
+  "character_with_animation": "curly@willis",
+  "character_emotion": "worried@hungry",
+  "character_position": "353@268@776@268",
+  "character_size": "370.4295654296875@543.6768798828125@912@912",
+  "character_with_audio": "Curly",
+  "audio": "c1_16"
+ }
+],
+"Chapter2":[
+ {
+  "scene": "c2-1",
+  "content": "Meanwhile, Chunky met a beaver selling sticks.",
+  "background": "bg_forest_with_stick",
+  "character": "chunky, beaver",
+  "character_with_animation": "chunky, beaver",
+  "character_emotion": "normal, normal",
+  "character_with_audio": "narrator"
+ },
+ {
+  "scene": "c2-2",
+  "content": "I'll build a house with sticks.",
+  "background": "bg_home_stick_outdoor",
+  "character": "chunky, beaver",
+  "character_with_animation": "chunky",
+  "character_emotion": "normal, normal",
+  "character_with_audio": "chunky, beaver"
+ },
+ {
+  "scene": "c2-3",
+  "content": "There, what a pleasant home!",
+  "background": "bg_home_stick_outdoor",
+  "character": "chunky",
+  "character_with_animation": "chunky",
+  "character_emotion": "normal",
+  "character_with_audio": "chunky"
+ },
+ {
+  "scene": "c2-4",
+  "content": "But there was one problem…",
+  "background": "bg_home_stick_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "narrator"
+ },
+ {
+  "scene": "c2-5",
+  "content": "Chunky, h-h-help!",
+  "background": "bg_home_stick_outdoor_closeup",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "curly"
+ },
+ {
+  "scene": "c2-6",
+  "content": "Eek! It's a wolf!",
+  "background": "bg_forest_03",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c2-7",
+  "content": "Hurry inside. Lock the door.",
+  "background": "bg_home_stick_outdoor_closeup",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "chunky"
+ },
+ {
+  "scene": "c2-8",
+  "content": "Knock- knock! Let me in!",
+  "background": "bg_home_stick_outdoor_closeup",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c2-9",
+  "content": "You can't come in!",
+  "background": "bg_home_stick_indoor",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "chunky"
+ },
+ {
+  "scene": "c2-10",
+  "content": "I'm going to huff! I'm going to puff!",
+  "background": "bg_home_stick_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c2-11",
+  "content": "And I'm going to blow your house down!",
+  "background": "bg_home_stick_outdoor_closeup",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c2-12",
+  "content": "It wasn't that hard. Stick houses fall easily.",
+  "background": "bg_home_stick_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_with_audio": "narrator"
+ },
+ {
+  "scene": "c2-13",
+  "content": "Now I'm going to eat you up!",
+  "background": "bg_forest_04",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c2-14",
+  "content": "Help! Help!",
+  "background": "bg_home_stick_fall",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "curly, chunky"
+ }
+],
+"Chapter3":[
+ {
+  "scene": "c3-1",
+  "content": "Meanwhile, Pinky met a horse selling bricks.",
+  "background": "bg_forest_with_brick",
+  "character": "pinky, horse",
+  "character_with_animation": "pinky, horse",
+  "character_emotion": "normal, normal",
+  "character_with_audio": "narrator"
+ },
+ {
+  "scene": "c3-2",
+  "content": "I'll build my house with bricks.",
+  "background": "bg_forest_with_brick",
+  "character": "pinky, horse",
+  "character_with_animation": "pinky, horse",
+  "character_emotion": "normal, normal",
+  "character_with_audio": "pinky, horse"
+ },
+ {
+  "scene": "c3-3",
+  "content": "This will be a strong home.",
+  "background": "bg_home_brick_build",
+  "character": "pinky",
+  "character_with_animation": "pinky",
+  "character_emotion": "normal",
+  "character_with_audio": "pinky"
+ },
+ {
+  "scene": "c3-4",
+  "content": "But there was one problem…",
+  "background": "bg_home_brick_chimney",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "narrotor"
+ },
+ {
+  "scene": "c3-5",
+  "content": "Pinky, help! A wolf is chasing us!",
+  "background": "bg_home_brick_outdoor_closeup",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "curly, chunky"
+ },
+ {
+  "scene": "c3-6",
+  "content": "Get inside quick and lock the door!",
+  "background": "bg_home_brick_outdoor",
+  "character": "curly, chunky",
+  "character_with_animation": "curly, chunky",
+  "character_emotion": "worried, worried",
+  "character_with_audio": "curly"
+ },
+ {
+  "scene": "c3-7",
+  "content": "He's going to eat us up!",
+  "background": "bg_fireplace_closeup",
+  "character": "curly, chunky, pinky",
+  "character_with_animation": "chunky",
+  "character_emotion": "worried",
+  "character_with_audio": "chunky"
+ },
+ {
+  "scene": "c3-8",
+  "content": "I have an idea! Fill that pot with water.",
+  "background": "bg_pot",
+  "character": "pinky",
+  "character_with_animation": "pinky",
+  "character_emotion": "normal",
+  "character_with_audio": "pinky"
+ },
+ {
+  "scene": "c3-9",
+  "content": "Knock-knock! Let me in!",
+  "background": "bg_home_brick_outdoor_closeup",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c3-10",
+  "content": "And I'm going to blow your house down!",
+  "background": "bg_home_brick_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c3-11",
+  "content": "Brick houses don't fall so easily.",
+  "background": "bg_home_brick_outdoor",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "blow",
+  "character_with_audio": "narrotor"
+ },
+ {
+  "scene": "c3-12",
+  "content": "Oh, no, he's climbing onto the roof!",
+  "background": "bg_home_brick_roof",
+  "character": "chunky",
+  "character_with_animation": "chunky",
+  "character_emotion": "worried",
+  "character_with_audio": "chunky"
+ },
+ {
+  "scene": "c3-13",
+  "content": "Let's see. The water is boiling nice and hot.",
+  "background": "bg_pot",
+  "character": "pinky",
+  "character_with_animation": "pinky",
+  "character_emotion": "normal",
+  "character_with_audio": "pinky"
+ },
+ {
+  "scene": "c3-14",
+  "content": "I'll slide down the chimney just like that pig!",
+  "background": "bg_home_brick_chimney",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "normal",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c3-15",
+  "content": "When Willis fell in, Pinky covered the pot.",
+  "background": "bg_pot",
+  "character": "curly, chunky, pinky",
+  "character_with_animation": "pinky",
+  "character_emotion": "normal",
+  "character_with_audio": "narrotor"
+ },
+ {
+  "scene": "c3-16",
+  "content": "Ahh! Oww! Let me out!",
+  "background": "bg_pot_covered",
+  "character": "n\/a",
+  "character_with_animation": "n\/a",
+  "character_emotion": "n\/a",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c3-17",
+  "content": "I'll let you out if you promise to leave us alone.",
+  "background": "bg_pot_covered",
+  "character": "pinky",
+  "character_with_animation": "pinky",
+  "character_emotion": "normal",
+  "character_with_audio": "pinky"
+ },
+ {
+  "scene": "c3-18",
+  "content": "I promise!",
+  "background": "bg_pot",
+  "character": "n\/a",
+  "character_with_animation": "n\/a",
+  "character_emotion": "n\/a",
+  "character_with_audio": "willis"
+ },
+ {
+  "scene": "c3-19",
+  "content": "Willis left town and never came back.",
+  "background": "bg_home_brick_indoor_opened",
+  "character": "willis",
+  "character_with_animation": "willis",
+  "character_emotion": "worried",
+  "character_with_audio": "narrotor"
+ }
+]
+}

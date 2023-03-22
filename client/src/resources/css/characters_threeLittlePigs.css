@@ -1,0 +1,739 @@
+
+#App-story-speaker_Narrotor{
+	width: 8.51030270258583vw;
+	left: 3.33333333333333vw;
+	top: 78.1481481481481vh;
+}
+
+#App-story-speaker_Mama,
+#App-story-speaker_Pinky,
+#App-story-speaker_Chunky,
+#App-story-speaker_Curly{
+	width: 8.40613603591917vw;
+	left: 3.4375vw;
+	top: 78.1481481481481vh;
+}
+
+#App-story-speaker_Pigs{
+	width: 11.0928304990132vw;
+	left: 1.875vw;
+	top: 77.5925925925926vh;
+}
+
+#App-story-speaker_Willis{
+	width: 10.5936360359192vw;
+	left: 1.19791666666667vw;
+	top: 78.7962962962963vh;
+}
+
+/* robot Normal */
+.robot, .robot *{
+	position: absolute;
+}
+
+.robot {
+	height: 69.1666666666667vh;
+	width: 50.5635416666667vw;
+	left: 29.2708333333333vw;
+	top: 22.4074074074074vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.robot_body {
+	height: 100%;
+	width: 100%;
+}
+.robot_eye {
+    height: 11.3239625167336%;
+    width: 37.9431%;
+    left: 31.273563%;
+    top: 26.838019%;
+	animation: eye forwards infinite 5s ease-in-out;
+}
+
+/* curly Normal */
+.curlyNormal, .curlyNormal *{
+	position: absolute;
+}
+
+.curlyNormal {
+	height: 52.8940158420139vh;
+	width: 20.8333333333333vw;
+	left: 48.3020833333333vw;
+	top: 30.5555555555556vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.curly_normal_body {
+	height: 100%;
+	width: 100%;
+}
+
+.curly_normal_mouth1 {
+	height: 6.852342%;
+    width: 13.94423%;
+    left: 40.386477%;
+    top: 43.961571%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.curly_normal_mouth2 {
+	height: 4.852342%;
+    width: 13.94423%;
+    left: 40.386477%;
+    top: 44.961571%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.curly_normal_eye {
+	height: 15.120687%;
+    width: 62.990515%;
+    left: 16%;
+    top: 22%;
+	/* animation: eye 10s infinite alternate; */
+	animation: eye forwards infinite 5s ease-in-out;
+}
+
+/* chunky Normal */
+.chunkyNormal, .chunkyNormal *{
+	position: absolute;
+}
+
+.chunkyNormal {
+	height: 52.8940158420139vh;
+	width: 20.8333333333333vw;
+	left: 32.3020833333333vw;
+	top: 27.5555555555556vh;
+	animation: body_motion2 alternate infinite 8s ease-in-out;
+}
+
+.chunky_normal_body {
+	height: 100%;
+	width: 100%;
+}
+
+.chunky_normal_mouth1 {
+	height: 6.852342%;
+    width: 13.94423%;
+    left: 41.386477%;
+    top: 44.961571%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.chunky_normal_mouth2 {
+	height: 6.852341%;
+    width: 13.944231%;
+    left: 41%;
+    top: 44%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.chunky_normal_eye {
+	height: 15.120687%;
+    width: 64.990515%;
+    left: 16%;
+    top: 22%;
+	animation: eye forwards infinite 10s ease-in-out;
+}
+
+/* pinky Normal */
+.pinkyNormal, .pinkyNormal *{
+	position: absolute;
+}
+
+.pinkyNormal {
+	height: 52.8940158420139vh;
+	width: 20.8333333333333vw;
+	left: 15.3020833333333vw;
+	top: 32.5555555555556vh;
+	animation: body_motion2 alternate infinite 2s ease-in-out;
+}
+
+.pinky_normal_body {
+	height: 100%;
+	width: 100%;
+}
+
+.pinky_normal_mouth1 {
+	height: 5.852341%;
+    width: 13.944231%;
+    left: 41%;
+    top: 45%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.pinky_normal_mouth2 {
+	height: 3.852341%;
+    width: 12.944231%;
+    left: 41%;
+    top: 46%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.pinky_normal_eye {
+	height: 15.120687%;
+    width: 66.990515%;
+    left: 14%;
+    top: 22%;
+	animation: eye forwards infinite 8s ease-in-out;
+}
+
+/* mama Normal */
+.mamaNormal, .mamaNormal *{
+	position: absolute;
+}
+
+.mamaNormal {
+	height: 67.3462196632668vh;
+	width: 26.7558574676514vw;
+	left: 63.21875vw;
+	top: 14.0740740740741vh;
+}
+
+.mama_normal_body {
+	height: 100%;
+	width: 100%;
+}
+
+.mama_normal_mouth1 {
+	height: 5.49949755490708%;
+    width: 15.378252550149%;
+    left: 37%;
+    top: 42.8%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.mama_normal_mouth2 {
+	height: 4.852341%;
+    width: 13.944231%;
+    left: 38%;
+    top: 42%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.mama_normal_eye {
+	height: 15.998898%;
+    width: 54.910668%;
+    left: 18%;
+    top: 19%;
+	animation: eye forwards infinite 20s ease-in-out;
+}
+
+/* curly Worried */
+.curlyWorried, .curlyWorried *{
+	position: absolute;
+}
+
+.curlyWorried {
+	height: 50.3404518410011vh;
+	width: 19.2932065327962vw;
+	left: 10.46875vw;
+	top: 40.5555555555556vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.curly_worried_body {
+	height: 100%;
+	width: 100%;
+}
+
+.curly_worried_mouth1 {
+	height: 6.388242%;
+    width: 20.097004%;
+    left: 39.677862%;
+    top: 45.438317%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.curly_worried_mouth2 {
+	height: 5.388242%;
+    width: 17.097004%;
+    left: 41.677862%;
+    top: 46.438317%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.curly_worried_eye {
+	height: 16.120687%;
+    width: 64.990515%;
+    left: 17%;
+    top: 21%;
+	animation: eye forwards infinite 5s ease-in-out;
+}
+.curly_worried_sweat1 {
+	height: 6.098715%;
+    width: 5.345861%;
+    left: 19.765863%;
+    top: 18.321226%;
+	animation: sweat_motion1 5s infinite alternate;
+}
+.curly_worried_sweat2 {
+	height: 6.173453%;
+    width: 5.267329%;
+    left: 75.454453%;
+    top: 18.523157%;
+	animation: sweat_motion1 5s infinite alternate;
+}
+
+/* chunky Worried */
+.chunkyWorried, .chunkyWorried *{
+	position: absolute;
+}
+
+.chunkyWorried {
+	height: 50.3404518410011vh;
+	width: 19.2932065327962vw;
+	left: 25.46875vw;
+	top: 40.5555555555556vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.chunky_worried_body {
+	height: 100%;
+	width: 100%;
+}
+
+.chunky_worried_mouth1 {
+	height: 6.388242%;
+    width: 20.097004%;
+    left: 39.677862%;
+    top: 45.438317%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.chunky_worried_mouth2 {
+	height: 5.388242%;
+    width: 17.097004%;
+    left: 41.677862%;
+    top: 46.438317%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.chunky_worried_eye {
+	height: 16.120687%;
+    width: 64.990515%;
+    left: 17%;
+    top: 21%;
+	animation: eye forwards infinite 10s ease-in-out;
+}
+.chunky_worried_sweat1 {
+	height: 6.098715%;
+    width: 5.345861%;
+    left: 16.765863%;
+    top: 25.321226%;
+	animation: sweat_motion1 10s infinite alternate;
+}
+.chunky_worried_sweat2 {
+	height: 6.173453%;
+    width: 5.267329%;
+    left: 76.454453%;
+    top: 19.523157%;
+	animation: sweat_motion2 20s infinite alternate;
+}
+
+/* pinky Worried */
+.pinkyWorried, .pinkyWorried *{
+	position: absolute;
+}
+
+.pinkyWorried {
+	height: 50.3404518410011vh;
+	width: 19.2932065327962vw;
+	left: 45.46875vw;
+	top: 40.5555555555556vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.pinky_worried_body {
+	height: 100%;
+	width: 100%;
+}
+
+.pinky_worried_mouth1 {
+	height: 6.388242%;
+    width: 20.097004%;
+    left: 39.677862%;
+    top: 45.438317%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.pinky_worried_mouth2 {
+	height: 5.388242%;
+    width: 17.097004%;
+    left: 41.677862%;
+    top: 46.438317%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.pinky_worried_eye {
+	height: 16.120687%;
+    width: 64.990515%;
+    left: 16%;
+    top: 22%;
+	animation: eye forwards infinite 8s ease-in-out;
+}
+.pinky_worried_sweat1 {
+	height: 6.098715%;
+    width: 5.345861%;
+    left: 13.765863%;
+    top: 21.321226%;
+	animation: sweat_motion1 30s infinite alternate;
+}
+.pinky_worried_sweat2 {
+	height: 6.173453%;
+    width: 5.267329%;
+    left: 77.454453%;
+    top: 17.523157%;
+	animation: sweat_motion2 20s infinite alternate;
+}
+
+/* mama Worried */
+.mamaWorried, .mamaWorried *{
+	position: absolute;
+}
+
+.mamaWorried {
+	height: 67.3462196632668vh;
+	width: 26.7558574676514vw;
+	left: 60.21875vw;
+	top: 14.0740740740741vh;
+}
+
+.mama_worried_body {
+	height: 100%;
+	width: 100%;
+}
+
+.mama_worried_mouth1 {
+	height: 6.388242%;
+    width: 19.097004%;
+    left: 37.677862%;
+    top: 43.438317%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.mama_worried_mouth2 {
+	height: 4.488242%;
+    width: 15.097004%;
+    left: 36.677862%;
+    top: 43.438317%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+.mama_worried_eye {
+	height: 15.120687%;
+    width: 60.990515%;
+    left: 14%;
+    top: 21%;
+	animation: eye forwards infinite 20s ease-in-out;
+}
+.mama_worried_sweat1 {
+	height: 6.098715%;
+    width: 5.345861%;
+    left: 12.765863%;
+    top: 22.321226%;
+	animation: sweat_motion1 5s infinite alternate;
+}
+.mama_worried_sweat2 {
+	height: 6.173453%;
+    width: 5.267329%;
+    left: 70.454453%;
+    top: 17.523157%;
+	animation: sweat_motion2 10s infinite alternate;
+}
+
+/* beaver */
+.beaver, .beaver *{
+	position: absolute;
+}
+
+.beaver {
+	height: 77.1296296296296vh;
+	width: 37.1636136372884vw;
+	left: 50vw;
+	top: 18.0555555555556vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.beaver_body {
+	height: 100%;
+	width: 100%;
+}
+
+.beaver_eye {
+	height: 18.3041352886775%;
+	width: 32.8061831153389%;
+	left: 21.513674197384%;
+	top: 12.081648830757%;
+	animation: eye forwards infinite 20s ease-in-out;
+}
+
+
+/* horse */
+.horse, .horse *{
+	position: absolute;
+}
+
+.horse {
+	height: 81.2962962962963vh;
+	width: 42.5734202067057vw;
+	left: 41.9791666666667vw;
+	top: 15.0925925925926vh;
+	animation: body_motion2 alternate infinite 5s ease-in-out;
+}
+
+.horse_body {
+	height: 100%;
+	width: 100%;
+}
+
+.horse_eye {
+	height: 9.3041352886775%;
+	width: 23.8061831153389%;
+	left: 34.513674197384%;
+	top: 23.081648830757%;
+	animation: eye forwards infinite 20s ease-in-out;
+}
+
+.horse_tail {
+	height: 28.8614277416047%;
+	width: 37.9365559972641%;
+	left: 0.6041677244774%;
+	top: 40.9581354441023%;
+	animation: tail 20s infinite alternate;
+}
+
+/* goat */
+.goat, .goat *{
+	position: absolute;
+}
+
+.goat {
+	height: 81.3077799479167vh;
+	width: 31.25vw;
+	left: 61.7708333333333vw;
+	top: 16.4814814814815vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+.goat_body {
+	height: 100%;
+	width: 100%;
+}
+
+.goat_eye {
+	height: 11.7117567968826%;
+	width: 16.3568407694499%;
+	left: 50.041015625%;
+	top: 20.1205510404259%;
+	animation: eye forwards infinite 20s ease-in-out;
+}
+
+/* wolfNormal*/
+.wolfNormal, .wolfNormal *{
+	position: absolute;
+}
+
+.wolfNormal {
+	height: 55.5555555555556vh;
+	width: 31.25vw;
+	left: 52.0833333333333vw;
+	top: 11.1111111111111vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.wolf_normal_body {
+	height: 100%;
+	width: 100%;
+}
+
+.wolf_normal_eye {
+	height: 15.5%;
+    width: 24.333333%;
+    left: 39%;
+    top: 14.666667%;
+	animation: eye forwards infinite 15s ease-in-out;
+}
+
+.wolf_normal_mouth1  {
+	height: 12.166667%;
+    width: 25%;
+    left: 42.5%;
+    top: 29%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.wolf_normal_mouth2 {
+	height: 5.5%;
+    width: 29.704648%;
+    left: 18.5%;
+    top: 39%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+/* wolfWorried */
+.wolfWorried, .wolfWorried *{
+	position: absolute;
+}
+
+.wolfWorried {
+	height: 55.5555555555556vh;
+	width: 31.25vw;
+	left: 52.0833333333333vw;
+	top: 11.1111111111111vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.wolf_worried_body {
+	height: 100%;
+	width: 100%;
+}
+
+.wolf_worried_eye {
+	height: 15.5%;
+    width: 25.333333%;
+    left: 34%;
+    top: 15.166667%;
+	animation: eye forwards infinite 15s ease-in-out;
+}
+.wolf_worried_sweat1{
+	height: 9.098715%;
+    width: 5.345861%;
+    left: 62.765863%;
+    top: 16.321226%;
+	animation: sweat_motion1 5s infinite alternate;
+}
+.wolf_worried_sweat2{
+	height: 6.098715%;
+    width: 5.345861%;
+    left: 67.765863%;
+    top: 21.321226%;
+	animation: sweat_motion2 5s infinite alternate;
+}
+
+/* wolfBlow*/
+.wolfBlow, .wolfBlow *{
+	position: absolute;
+}
+
+.wolfBlow {
+	height: 55.5555555555556vh;
+	width: 31.25vw;
+	left: 52.0833333333333vw;
+	top: 11.1111111111111vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.wolf_blow_body {
+	height: 100%;
+	width: 100%;
+}
+
+.wolf_blow_eye {
+	height: 15.5%;
+    width: 26.333333%;
+    left: 38%;
+    top: 15.166667%;
+	animation: eye forwards infinite 15s ease-in-out;
+}
+
+.wolf_blow_mouth  {
+	height: 6.166667%;
+    width: 18%;
+    left: 23.5%;
+    top: 39%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.wolf_blow_icon  {
+	height: 27.166667%;
+    width: 39%;
+    left: 42.5%;
+    top: 29%;
+	animation: blow 5s infinite alternate;
+}
+
+/* wolfHungry*/
+.wolfHungry, .wolfHungry *{
+	position: absolute;
+}
+
+.wolfHungry {
+	height: 55.5555555555556vh;
+	width: 31.25vw;
+	left: 52.0833333333333vw;
+	top: 11.1111111111111vh;
+	animation: body_motion1 alternate infinite 2s ease-in-out;
+}
+
+.wolf_hungry_body {
+	height: 100%;
+	width: 100%;
+}
+
+.wolf_hungry_eye {
+	height: 15.5%;
+    width: 24.333333%;
+    left: 39%;
+    top: 14.666667%;
+	animation: eye forwards infinite 15s ease-in-out;
+}
+
+.wolf_hungry_mouth1  {
+	height: 17.166667%;
+    width: 31%;
+    left: 36.5%;
+    top: 27%;
+	animation: mouth_motion1 5s infinite alternate;
+}
+
+.wolf_hungry_mouth2 {
+	height: 17.5%;
+    width: 38.704648%;
+    left: 29.5%;
+    top: 28%;
+	animation: mouth_motion2 5s infinite alternate;
+}
+
+@keyframes body_motion1 {
+	from { transform: rotate(-2deg); } 
+  	to { transform: rotate(2deg); } 
+}
+@keyframes body_motion2 {
+	from { transform: rotate(2deg); } 
+  	to { transform: rotate(-2deg); } 
+}
+@keyframes eye {
+	0%, 2%, 10%, 12%, 100% { transform: scaleX(1) scaleY(1); } 
+  	1%, 11% { transform: scaleX(1) scaleY(0.1); } 
+}
+@keyframes mouth_motion1 {
+	17.2%, 37.2%, 73.6%, 93.6% { opacity: 0; }
+	0%, 100% { opacity: 1; }
+}
+@keyframes mouth_motion2 {
+	17.2%, 37.2%, 73.6%, 93.6% { opacity: 1; }
+	0%, 100% { opacity: 0; }
+}
+
+@keyframes blow {
+	0% {
+		left: 0%;
+		transform: translateX(-100%);
+		opacity: 1;
+	  }
+	  100% {
+		left: 0%;
+		transform: translateX(0%);
+		opacity: 0;
+	  }
+}
+
+@keyframes sweat_motion1 {
+	100% { transform: translate(0px, 8px); opacity: 1;}
+	0% { transform: translate(0px, 0px); opacity: 0;}
+}
+
+@keyframes sweat_motion2 {
+	100% { transform: translate(0px, 8px); opacity: 1;}
+	0% { transform: translate(0px, 0px); opacity: 0;}
+}

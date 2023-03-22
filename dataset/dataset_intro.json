@@ -1,0 +1,14 @@
+[
+ {
+  "scene": "i-1",
+  "content": "Hello, Students!  I’m Robot!",
+  "background": "background1",
+  "character": "robot",
+  "character_with_animation": "robot",
+  "character_emotion": "normal",
+  "character_position": "526@242",
+  "character_size": "747@970.82",
+  "character_with_audio": "Narrotor",
+  "audio": "intro1"
+ }
+]

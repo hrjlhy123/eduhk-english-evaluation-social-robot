@@ -1,0 +1,36 @@
+{
+    "Chapter1": [
+        {
+            "scene": "c1-16-q1",
+            "helped": "Curly",
+            "tips": "Curly is in danger!@Say \"Can't help him\" or \"Ask Chunky help\"",
+            "selection": "Can't help him@Ask chunky help",
+            "from": "c1-15",
+            "to": "c1-16-q2"
+        },
+        {
+            "scene": "c1-16-q2",
+            "helped": "Curly",
+            "tips": "Why don't help him?@Say \"Ask Chunky help!\"",
+            "selection": "Ask chunky help",
+            "from": "c1-16-q1",
+            "to": ""
+        },
+        {
+            "scene": "c1-15-q1",
+            "helped": "Willis",
+            "tips": "Will Willis eat Curly?",
+            "selection": "Eat!@Won't eat!",
+            "from": "c1-15",
+            "to": "c1-15-q2@c1-16"
+        },
+        {
+            "scene": "c1-15-q2",
+            "helped": "Willis",
+            "tips": "Why eat Curly?@Say \"Won't eat!\"",
+            "selection": "Say \"Won't eat!\"",
+            "from": "c1-15-q1",
+            "to": "c1-16"
+        }
+    ]
+}

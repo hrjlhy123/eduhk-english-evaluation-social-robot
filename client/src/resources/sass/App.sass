@@ -1,0 +1,591 @@
+body
+  margin: 0
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  overflow: hidden
+  caret-color: transparent
+  background: url(../images/background.svg)
+  *
+    margin: 0
+
+button
+  position: absolute
+
+.root
+  text-align: center
+
+@font-face
+  font-family: Baloo Tamma
+  src: url('../fonts/BalooTammudu-Regular.ttf')
+
+p,span
+  font-family: Baloo Tamma
+  font-weight: 400
+
+.App-loading
+  z-index: 999
+  width: 100%
+  opacity: 1
+  transition: opacity 1.2s ease-in-out
+
+.App-icon1,
+.App-icon2,
+.App-icon3,
+.App-icon4,
+.App-icon5,
+.App-icon6,
+.App-icon7,
+.App-icon8,
+.App-icon8-page6,
+.App-icon9,
+.App-icon10,
+.App-icon11,
+.App-icon12,
+.App-special_icon1,
+.App-special_icon2,
+.App-subtitle1.App-selection7 p,
+.App-selection1,
+.App-selection2,
+.App-selection3,
+.App-selection4,
+.App-selection5,
+.App-selection6
+  z-index: 2
+  cursor: pointer
+
+img
+  position: absolute
+
+.App-background1,
+.App-background2,
+.App-background3,
+.App-background4,
+.App-background5
+  z-index: -1
+
+.App-background1
+  width: 100vw
+  top: 0vh
+  left: 0vw
+
+.App-story
+  width: 100vw
+  top: 0vh
+  left: 0vw
+  z-index: 0
+  // transition: opacity .75s ease-in-out
+  opacity: 1
+
+.App-story-page4
+  width: 43.8020833333333vw
+  left: 28.125vw
+  top: 23.9814814814815vh
+  border-radius: 1.5625vw
+  z-index: 1
+  opacity: 1
+
+.App-story-page6
+  height: 41.1111111111111vh
+  width: 41.09375vw
+  left: 14.5833333333333vw
+  top: 39.4444444444444vh
+  border-radius: 1.5625vw
+  z-index: 1
+  opacity: 1
+
+img[id^="App-story-bg"]
+  z-index: -1
+  opacity: 1
+
+img[id^="App-story-speaker"]
+  z-index: 1
+  display: none
+
+.App-background3
+  width: 100vw
+  top: 0vh
+  left: 0vw
+
+.App-background4
+  width: 100vw
+  top: 0vh
+  left: 0vw
+
+.App-background5
+  width: 100vw
+  top: 0vh
+  left: 0vw
+
+.App-rectangle1
+  width: 33.6979166666667vw
+  left: 33.1770833333333vw
+  top: 50.3703703703704vh
+
+.App-rectangle21
+  width: 10.78125vw
+  left: 33.3333333333333vw
+  top: 68.3333333333333vh
+
+.App-rectangle22
+  width: 10.78125vw
+  left: 44.6354166666667vw
+  top: 68.3333333333333vh
+
+.App-rectangle23
+  width: 10.78125vw
+  left: 55.8333333333333vw
+  top: 68.3333333333333vh
+
+.App-box1
+  width: 79.21875vw
+  left: 10.3645833333333vw
+  top: 32.3148148148148vh
+
+.App-box2
+  z-index: 1
+  width: 92.8645833333333vw
+  left: 3.54166666666667vw
+  top: 80.1851851851852vh
+
+.App-box3
+  width: 41.1458333333333vw
+  left: 29.4270833333333vw
+  top: 20vh
+
+.App-box4
+  width: 74.4270833333333vw
+  left: 12.2916666666667vw
+  top: 6.48148148148148vh
+
+.App-box5
+  width: 50.8333333333333vw
+  left: 24.3229166666667vw
+  top: 32.3148148148148vh
+
+.App-box6
+  width: 41.5625vw
+  &:nth-of-type(1)
+    left: 4.94791666666667vw
+  &:nth-of-type(2)
+    left: 47.7604166666667vw
+
+.App-box7
+  height: 55.0925925925926vh
+  width: 46.71875vw
+  left: 11.7708333333333vw
+  top: 28.5185185185185vh
+
+.App-icon1
+  width: 4.26666657129923vw
+  left: 1vw
+  top: 1.85185185185185vh
+
+.App-icon2
+  z-index: 3
+  width: 4.26666657129923vw
+  left: 94.6875vw
+  top: 1.85185185185185vh
+
+.App-icon3
+  width: 4.26666657129923vw
+  left: 94.6875vw
+  top: 1.85185185185185vh
+
+.App-icon4
+  display: none
+  width: 6.69314384460448vw
+  left: 2.60416666666667vw
+  top: 42.7777777777778vh
+
+.App-icon5
+  display: none
+  width: 6.69314384460448vw
+  left: 90.6770833333333vw
+  top: 42.7777777777778vh
+
+.App-icon6
+  width: 4.26666657129923vw
+  left: 94.6875vw
+  top: 9.240741vh
+
+.App-icon7
+  width: 4.26666657129923vw
+  left: 94.6875vw
+  top: 17.240741vh
+
+.App-icon6-hide, .App-icon7-hide
+  top: 1.85185185185185vh
+
+.App-icon8
+  display: none
+  width: 6.82666699091588vw
+  left: 90.5729166666667vw
+  top: 80.6481481481482vh
+
+.App-icon8-page6
+  width: 6.82666699091588vw
+  left: 31.71875vw
+  top: 77.5vh
+
+.App-icon9
+  width: 6.69314384460448vw
+  left: 42.7083333333333vw
+  top: 83.8888888888889vh
+
+.App-icon10
+  width: 6.69314384460448vw
+  left: 51.6145833333333vw
+  top: 83.8888888888889vh
+
+.App-icon11
+  display: none
+  width: 13.125vw
+  left: 84.2708333333333vw
+  top: 42.7777777777778vh
+
+.App-icon12
+  display: none
+  height: 11.5740740740741vh
+  width: 13.125vw
+  left: 84.6354166666667vw
+  top: 81.1111111111111vh
+
+.App-special_icon1
+  width: 11.3541666666667vw
+  left: 5.625vw
+  top: 4.53703703703704vh
+
+.App-special_icon2
+  position: absolute
+  left: 16.71875vw
+  top: 3.98148148148148vh
+  p
+    z-index: 1
+    position: absolute
+    display: flex
+    width: calc(100% - 1.04166666665vw)
+    height: 9.90740740740741vh
+    left: 1.04166666666667vw
+    color: rgba(156, 105, 105, 1)
+    font-size: 2.77777777777778vh
+    line-height: 100%
+    white-space: nowrap
+    justify-content: center
+    span
+      display: inline-flex
+      align-items: center
+
+  >svg
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25))
+
+.App-picture1
+  width: 32.8125vw
+  left: 13.28125vw
+  top: 38.3333333333333vh
+
+.App-picture2
+  width: 43.8020833333333vw
+  left: 28.125vw
+  top: 23.9814814814815vh
+
+.App-subtitle1
+  z-index: 1
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 12.6vh
+  width: 67.34375vw
+  left: 16.1458333333333vw
+  top: 80.559962962963vh
+  p
+    color: rgba(156, 105, 105, 1)
+    font-size: 4.2762962962963vh
+    white-space: pre
+    min-width: 41.5625vw
+    text-align: center
+  p:nth-of-type(1)
+    margin: 0 1.25000000000003vw 0 0
+    >span.word
+      color: rgba(106, 173, 0, 1)
+      display: flex
+      align-items: center
+      flex-direction: column
+
+.App-subtitle2
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: flex-start
+  overflow: hidden
+  height: 12vh
+  left: 15vw
+  width: 70vw
+  top: 72.7777777777778vh
+  >span.word, >span.keyword
+    color: rgba(106, 173, 0, 1)
+    display: flex
+    align-items: center
+    flex-direction: column
+    padding-right: 0.625vw
+    >span
+      &:nth-of-type(1)
+        min-height: 2.3148148148vh
+        font-size: 2.31481481481481vh
+        line-height: 100%
+      &:nth-of-type(2)
+        font-size: 4.62962962962963vh
+        line-height: 100%
+    >img
+      position: absolute
+      top: 6.8703703704vh
+
+.App-subtitle3
+  justify-content: space-between
+  left: 4.9479166667vw
+  p
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 2.60416666666667vw
+
+.App-Scoreboard
+  position: absolute
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: column
+  top: 50.3703703703704vh
+  left: 33.1770833333333vw
+  width: 59.9074074074074vh
+  height: 29.3518518518519vh
+  p
+    display: inline-flex
+    line-height: 40%
+  .Scoreboard-items
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    flex-direction: column
+    > p:nth-of-type(1)
+      color: rgba(70, 70, 70, 1)
+  > div
+    &:nth-of-type(1)
+      height: 15.3703703703704vh
+    > p
+      &:nth-of-type(1)
+        font-size: 2.77777777777778vh
+      &:nth-of-type(2)
+        font-size: 6.01851851851852vh
+        color: rgba(254, 84, 83, 1)
+    &:nth-of-type(2)
+      display: flex
+      width: 100%
+      height: 11.3888888888889vh
+      justify-content: space-evenly
+      align-items: center
+      flex-direction: row
+    > .Scoreboard-items
+      flex: 1
+      height: 100%
+      > p
+        &:nth-of-type(1)
+          font-size: 2.31481481481481vh
+        &:nth-of-type(2)
+          font-size: 4.25925925925926vh
+      &:nth-of-type(1)
+        p:nth-of-type(2)
+          color: rgba(0, 202, 255, 1)
+      &:nth-of-type(2)
+        p:nth-of-type(2)
+          color: rgba(227, 93, 167, 1)
+      &:nth-of-type(3)
+        p:nth-of-type(2)
+          color: rgba(70, 211, 176, 1)
+
+.App-title
+  position: absolute
+  filter: drop-shadow(0px 4px 2px rgb(0 0 0 / 0.25))
+  z-index: 3
+  >text
+    font-family: Baloo Tamma
+    font-size: 3.125vw
+    fill: #FE5453
+
+.App-title1
+  width: 28.9583333333333vw
+  left: 49.4791666666667vw
+  top: 43.9814814814815vh
+
+.App-title2
+  width: 22.1875vw
+  left: 38.90625vw
+  top: 37.5925925925926vh
+  >text
+    font-size: 3.64583333333333vw
+
+.App-title3
+  width: 14.4270833333333vw
+  left: 42.8645833333333vw
+  top: 12.962962962963vh
+  >text
+    font-size: 3.64583333333333vw
+
+.App-title4
+  width: 29.6843910217285vw
+  left: 34.8958396911621vw
+  top: 35vh
+  >text
+    font-size: 2.60416666666667vw
+
+.App-title5
+  height: 10.9259259259259vh
+  width: 40.8854166666667vw
+  left: 14.5833333333333vw
+  top: 28.5185185185185vh
+  >text
+    dominant-baseline: middle
+    text-anchor: middle
+    font-size: 2.08333333333333vw
+
+.App-subhead
+  position: absolute
+  font-size: 1.5625vw
+  color: #434343
+  z-index: 3
+
+.App-subhead1
+  width: 18.0729166666667vw
+  left: 50vw
+  top: 50.462962962963vh
+
+.App-subhead2
+  width: 18.75vw
+  left: 41.3020833333333vw
+  top: 43.5185185185185vh
+
+.cache1
+  filter: blur(2px)
+  clip-path: path("M999.618 643.816C952.506 648.229 950 683.53 950 739.633C955.012 777.455 983.58 804.561 1063.27 795.106C1142.96 785.65 1155.99 754.132 1156.99 703.071C1158 652.011 1046.73 639.404 999.618 643.816Z")
+
+.cache2
+  filter: blur(2px)
+  clip-path: path("M1176.28 709.981C1179.28 659.636 1204.25 649 1284.65 649C1380.53 649 1404 670.982 1404 719.908C1404 768.835 1355.06 794.362 1274.16 792.944C1193.26 791.526 1173.29 760.326 1176.28 709.981Z")
+
+.cache3
+  filter: blur(2px)
+  clip-path: path("M1580.38 796.216C1627.49 791.975 1630 758.049 1630 704.132C1624.99 667.783 1596.42 641.733 1516.73 650.82C1437.04 659.908 1424.01 690.198 1423.01 739.269C1422 788.34 1533.27 800.456 1580.38 796.216Z")
+
+.App-selection1
+  width: 10.78125vw
+  left: 49.4791666666667vw
+  top: 59.537037037037vh
+
+.App-selection2
+  width: 11.875vw
+  left: 61.25vw
+  top: 60.0925925925926vh
+
+.App-selection3
+  width: 10.7812515894572vw
+  left: 74.1145833333333vw
+  top: 60.0925925925926vh
+
+.App-selection4
+  width: 17.8598992029826vw
+  left: 29.7916666666667vw
+  top: 47.5925925925926vh
+
+.App-selection5
+  width: 17.8598928451538vw
+  left: 51.8081601460775vw
+  top: 47.5732421875vh
+
+.App-selection6
+  position: absolute
+  display: none
+  z-index: 1
+  top: 80.1851851851852vh
+
+.App-star_bg1
+  width: 8.95833333333333vw
+  left: 36.09375vw
+  top: 20.0925925925926vh
+
+.App-star_bg2
+  width: 11.4583333333333vw
+  left: 44.1666666666667vw
+  top: 11.8518518518519vh
+
+.App-star_bg3
+  width: 8.95833333333333vw
+  left: 55vw
+  top: 20.0925925925926vh
+
+.App-star1
+  z-index: 1
+  display: none
+  width: 8.95833333333333vw
+  left: 36.09375vw
+  top: 20.0925925925926vh
+
+.App-star2
+  z-index: 1
+  display: none
+  width: 11.4583333333333vw
+  left: 44.1666666666667vw
+  top: 11.8518518518519vh
+
+.App-star3
+  z-index: 1
+  display: none
+  width: 8.95833333333333vw
+  left: 55vw
+  top: 20.0925925925926vh
+
+.App-logo
+  left: 80vw
+  top: 72vh
+  position: absolute
+  pointer-events: none
+
+@media (prefers-reduced-motion: no-preference)
+  .App-logo
+    animation: App-logo-spin infinite 20s linear
+
+.App-header
+  background-color: #282c34
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-size: calc(10px + 2vmin)
+  color: white
+
+.App-link
+  color: #61dafb
+
+@keyframes App-logo-spin
+  from
+    transform: rotate(0deg)
+
+  to
+    transform: rotate(360deg)
+
+// .App-Page2
+//   clip-path: path("M999.618 643.816C952.506 648.229 950 683.53 950 739.633C955.012 777.455 983.58 804.561 1063.27 795.106C1142.96 785.65 1155.99 754.132 1156.99 703.071C1158 652.011 1046.73 639.404 999.618 643.816Z")
+//   animation: App-Page2-Open 1 1s forwards cubic-bezier(.45,.3,.9,-0.6)
+//   > Story
+//     > Story-Page
+//       display: none
+
+// @keyframes App-Page2-Open
+
+//   100%
+//     clip-path: path("M0 0C0 0 0 0 0 1080C0 1080 0 1080 1920 1080C1920 1080 1920 1080 1920 0C1920 0 1920 0 0 0Z")
+
+.preload
+  display: none
